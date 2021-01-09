@@ -1,0 +1,33 @@
+class BaseUrl {
+  static String url = "http://192.168.0.104";
+  static String register = "$url/starbab/register.php";
+  static String login = "$url/starbab/login.php";
+  static String getBetina = "$url/starbab/beranda.php";
+  static String getidProses = "$url/starbab/getIdProses.php";
+  static String getidMax = "$url/starbab/getIdMax.php";
+  static String getOneBetina = "$url/starbab/getOneBetina.php";
+  static String getPejantan = "$url/starbab/pejantan.php";
+  static String getKawin = "$url/starbab/kawin.php";
+  static String getOneKawin = "$url/starbab/getOneKawin.php";
+  static String getBunting = "$url/starbab/bunting.php";
+  static String getOneBunting = "$url/starbab/getOneBunting.php";
+  static String getMenyusui = "$url/starbab/menyusui.php";
+  static String getOneMenyusui = "$url/starbab/getOneMenyusui.php";
+  static String getPenyapihan = "$url/starbab/penyapihan.php";
+  static String getOnePenyapihan = "$url/starbab/getOnePenyapihan.php";
+  static String getAnak = "$url/starbab/getAnak.php";
+  static String updateKawin = "$url/starbab/updateKawin.php";
+  static String updateStatusInduk = "$url/starbab/updateStatusInduk.php";
+  static String updateStatusProses = "$url/starbab/updateStatusProses.php";
+  static String updatePersentase = "$url/starbab/updatePersentase.php";
+  static String addKawin = "$url/starbab/addkawin.php";
+  static String addBunting = "$url/starbab/addBunting.php";
+  static String addMenyusui = "$url/starbab/addMenyusui.php";
+  static String addPenyapihan = "$url/starbab/addPenyapihan.php";
+  static String addAnak = "$url/starbab/addAnak.php";
+  static String addReset = "$url/starbab/addReset.php";
+  static String jumlahKawin = "$url/starbab/jumlahKawin.php";
+  static String jumlahBunting = "$url/starbab/jumlahBunting.php";
+  static String jumlahAnak = "$url/starbab/jumlahAnak.php";
+  static String deleteDataBabi = "$url/starbab/deleteDataBabi.php";
+}
